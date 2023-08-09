@@ -1,0 +1,196 @@
+body{
+    background-color: black;
+}
+
+.contenedor {
+    display: flex;
+  }
+  
+  .div-izquierdo {
+    width: 400px; /* Ancho fijo del lado izquierdo */
+    flex-shrink: 5; /* Evita que el div izquierdo se encoja si el espacio es insuficiente */
+  }
+  
+  .div-derecho {
+    flex-grow: 1; /* Permite que el div derecho tome el espacio restante */
+    /*background-color: lightgray; / Solo para mostrar el área del div derecho */
+  }
+
+  .cuadro-izquierdo{
+    height: 6.4in;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(37, 49, 38);
+  }
+
+  .cuadro-derecho{
+    height: 6.4in;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(20, 23, 20);
+  }
+
+  .div-izquierdo fieldset b{
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+  }
+
+  .div-izquierdo fieldset label{
+    margin: 10px;
+    color: white;
+  }
+
+  .div-boton{
+    margin-top: 25px;
+    margin-left: 45px;
+  }
+  .boton-1{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(38, 43, 48);
+    color: white;
+    border-radius: 8px;
+  }
+
+  .boton-2{
+    margin-left: 35px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(38, 43, 48);
+    color: white;
+    border-radius: 8px;
+  }
+
+  .chat{
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 70px;
+  }
+
+ .config{
+    margin-top: 3in;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: rgb(37, 49, 38);
+    width: 55px;
+    height: 55px;
+ }
+
+ .config img{
+    width: 40px;
+    height: 40px;
+ }
+
+ .nuevo{
+    border-radius: 10px;
+    margin-left: 100px;
+    width: 95px;
+    height: 37px;
+    background-color: rgb(37, 49, 38);
+ }
+
+ .nuevo img{
+    width: 80px;
+    height: 30px;
+ }
+
+ .title2{
+    margin-left: 25px;
+    font-size: 25px;
+    color: white;
+ }
+
+ .izq {
+    margin-top: 20px;
+    width: 500px; /* Ancho fijo del lado izquierdo */
+    flex-shrink: 5; /* Evita que el div izquierdo se encoja si el espacio es insuficiente */
+  }
+  
+  .der {
+    margin-left: 250px;
+    flex-grow: 1; /* Permite que el div derecho tome el espacio restante */
+    /*background-color: lightgray; / Solo para mostrar el área del div derecho */
+  }
+
+  .otro{
+    display: flex;
+  }
+
+  .botico{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: rgb(37, 49, 38);
+    width: 40px;
+    height: 40px;
+  }
+
+  .botico img{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .image{
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 25px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .image img{
+    border-radius: 10px;
+    height: 30px;
+  }
+
+  .mensaje{
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 10px;
+    width: 6.1in;
+    color: white;
+  }
+
+  .cuadr{
+    display: flex;
+  }
+
+  .msj{
+    width: 500px;
+    flex-shrink: 5;
+    margin-top: 325px;
+    margin-left: 25px;
+    border-radius: 10px;
+    width: 6.1in;
+    color: rgb(151, 143, 143);
+  }
+
+  .msj fieldset{
+    height: 50px;
+    width: 8in;
+  }
+
+  .boto{
+    margin-top: 355px;
+    border-radius: 10px;
+    margin-left: 250px;
+    width: 35px;
+    height: 28px;
+    background-color: aqua;
+  }
+
+  .envi{
+    border-radius: 10px;
+    border-radius: 25%;
+    height: 20px;
+  }
+
+  .icono{
+    width: 40px;
+    position: fixed;
+    left: 325px;
+    top: 55px;
+  }
